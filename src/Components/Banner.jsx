@@ -11,22 +11,19 @@ const Banner = () => {
     
         <div className="inline-flex items-center gap-3 bg-[#EEF2FF] border border-[#C7D2FE] px-5 py-2.5 rounded-full shadow-lg shadow-purple-50">
           <div className="relative w-3 h-3 rounded-full bg-[#7C3AED]/20 flex items-center justify-center">
-            {/* Pulsating Ring */}
             <div className="absolute inset-0 bg-[#7C3AED] rounded-full animate-pulse opacity-60"></div>
-            {/* Center Dot */}
             <div className="relative w-2 h-2 bg-[#7C3AED] rounded-full"></div>
           </div>
-          
           <span className="text-[#7C3AED] text-sm font-bold tracking-tight">
             New: AI-Powered Tools Available
           </span>
         </div>
         
+
         <h1 className="text-5xl md:text-6xl font-black text-[#101727] leading-tight">
           Supercharge Your <br className="hidden md:block" />
           <span className="text-[#7C3AED]">Digital Workflow</span>
         </h1>
-        
         <p className="text-[#627382] text-lg leading-relaxed max-w-lg">
           Access premium AI tools, design assets, templates, and productivity 
           software—all in one place. Start creating faster today.
@@ -45,7 +42,6 @@ const Banner = () => {
       </div>
 
       <div className="md:w-1/2 relative">
-        {/* Background Blur Effect */}
         <div className="absolute -inset-4 bg-purple-200 rounded-[50px] blur-3xl opacity-20 -z-10"></div>
         <img 
           src={bannerImg} 
