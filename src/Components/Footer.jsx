@@ -56,12 +56,10 @@ const Footer = () => {
       <AiFillInstagram size={22} />
     </a>
 
-    {/* Facebook */}
     <a href="#" className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#0F172A]">
       <FaFacebookSquare size={20} />
     </a>
 
-    {/* X (Twitter) */}
     <a href="#" className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#0F172A]">
       <FaXTwitter size={20} />
     </a>
@@ -71,10 +69,10 @@ const Footer = () => {
   </div>
   </div>
   </div>
-
-     
+ 
     {/* Separator Line */}
   <div className="max-w-7xl mx-auto border-t border-gray-800 my-10"></div>
+  
   <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
     <p className="text-gray-500 text-sm">
       © 2026 Digitools. All rights reserved.
