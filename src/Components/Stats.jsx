@@ -30,7 +30,7 @@ const Stats = () => {
               {index < statData.length - 1 && (
                 <div className="hidden md:block w-[1px] h-16 bg-white/20"></div>
               )}
-            </React.Fragment>
+            </React.Fragment >
           ))}
           
         </div>
