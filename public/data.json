@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "AI Content Writer",
+    "description": "Generate high-quality blogs, ads, and social media posts in seconds with GPT-4.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "popular",
+    "features": ["Unlimited AI generations", "50+ writing templates", "Multi-language support"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2592/2592317.png"
+  },
+  {
+    "id": 2,
+    "name": "UI/UX Design Kit",
+    "description": "A massive collection of premium Figma components and website templates.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["2000+ UI components", "Free lifetime updates", "Commercial license"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3564/3564941.png"
+  },
+  {
+    "id": 3,
+    "name": "SEO Optimizer Pro",
+    "description": "Analyze your website and get actionable insights to rank #1 on Google.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "favourite",
+    "features": ["Keyword tracking", "Backlink analyzer", "Competitor audits"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055644.png"
+  },
+  {
+    "id": 4,
+    "name": "Video Editor Cloud",
+    "description": "Professional video editing directly in your browser with stock assets.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "Most Wanted",
+    "tagType": "mostwanted",
+    "features": ["4K Export support", "10GB Cloud storage", "Team collaboration"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4406/4406115.png"
+  },
+  {
+    "id": 5,
+    "name": "Code Snippet Manager",
+    "description": "Organize and share your code snippets across all your devices instantly.",
+    "price": 0,
+    "period": "monthly",
+    "tag": "Free",
+    "tagType": "new",
+    "features": ["Syntax highlighting", "Cloud sync", "VS Code extension"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1150/1150592.png"
+  },
+  {
+    "id": 6,
+    "name": "Automation Bot",
+    "description": "Automate repetitive tasks and connect your favorite apps seamlessly.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ integrations", "Custom workflows", "Real-time logs"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1909/1909705.png"
+  },
+  {
+    "id": 7,
+    "name": "E-book Creator Pro",
+    "description": "Convert any blog post or document into a beautiful PDF or Epub.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "Editor's Choice",
+    "tagType": "favourite",
+    "features": ["ATS optimization", "Export to PDF/Epub", "Cover designer"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3308/3308395.png"
+  },
+  {
+    "id": 8,
+    "name": "Stock Photo Pass",
+    "description": "Get access to millions of high-resolution royalty-free images.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best seller",
+    "features": ["Unlimited downloads", "Commercial usage", "Daily new uploads"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1042/1042339.png"
+  },
+  {
+    "id": 9,
+    "name": "Email Campaign Master",
+    "description": "Design and send beautiful newsletters with high delivery rates.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Drag & drop builder", "A/B testing", "Advanced analytics"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2082/2082812.png"
+  },
+  {
+    "id": 10,
+    "name": "SaaS Starter Boilerplate",
+    "description": "Launch your startup faster with a pre-built React & Node.js setup.",
+    "price": 149,
+    "period": "one-time",
+    "tag": "Premium",
+    "tagType": "mostwanted",
+    "features": ["Authentication ready", "Stripe integration", "Responsive UI"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/919/919851.png"
+  }
+]
