@@ -16,8 +16,8 @@ DigiTools Platform is a modern React-based web application where users can explo
 1. Modern Data Fetching (React 19 use Hook):
    I utilized the latest React 19 use() hook, which simplifies promise handling and significantly enhances the site's overall performance.
 
-1. Interactive Shopping Cart System:
+2. Interactive Shopping Cart System:
    Users can effortlessly add products to their cart. It features duplicate item prevention and real-time price calculation for a seamless shopping experience.
 
-1. Fully Responsive & Clean UI:
+3. Fully Responsive & Clean UI:
    Designed with a modern 'SaaS-style' look using Tailwind CSS, ensuring the platform works perfectly across mobile, tablet, and desktop devices.
