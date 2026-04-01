@@ -10,6 +10,9 @@ import Steps from "./Components/Steps";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Pricing from "./Components/Pricing";
+import Newsletter from "./Components/Newsletter";
+
+
 
 
 const getData = async () => {
@@ -21,6 +24,8 @@ const dataPromise = getData();
 
 function App() {
   const [activeTab, setActiveTab] = useState("model");
+console.log(activeTab);
+
   const [carts, setCarts] = useState([]);
 
   return (
@@ -72,6 +77,7 @@ function App() {
 
       <Steps />
     <Pricing/>
+    <Newsletter/>
       <Footer />
       <ToastContainer position="top-right" autoClose={1500} />
       
