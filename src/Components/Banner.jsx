@@ -4,7 +4,7 @@ import playImg from "../assets/Play.png";
 
 const Banner = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 max-w-7xl mx-auto gap-12">
+    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 max-w-7xl mx-auto gap-12 mb-8">
       
       <div className="md:w-1/2 space-y-6 text-center md:text-left">
         
@@ -20,7 +20,7 @@ const Banner = () => {
         </div>
         
 
-        <h1 className="text-5xl md:text-6xl font-black text-[#101727] leading-tight">
+        <h1 className="text-4xl md:text-5xl font-black text-[#101727] leading-tight">
           Supercharge Your <br className="hidden md:block" />
           <span className="text-[#7C3AED]">Digital Workflow</span>
         </h1>

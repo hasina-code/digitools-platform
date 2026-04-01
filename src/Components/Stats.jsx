@@ -9,7 +9,7 @@ const Stats = () => {
 
   return (
   
-    <section className="w-full bg-[#7C3AED] py-10 shadow-lg">
+    <section className="w-full bg-[#7C3AED] py-14 shadow-lg mb-16">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-around items-center gap-8 md:gap-0">
           
