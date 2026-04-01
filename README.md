@@ -1,16 +1,23 @@
-# React + Vite
+### DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+DigiTools Platform is a modern React-based web application where users can explore premium digital products, add them to cart, and manage their selections with a smooth and interactive UI. The project includes real-time cart updates, toast notifications, and a clean responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+1. React.js
+2. Tailwind CSS
+3. React-Toastify
+4. JavaScript (ES6+)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 3 Key Features
 
-## Expanding the ESLint configuration
+1. Modern Data Fetching (React 19 use Hook):
+   I utilized the latest React 19 use() hook, which simplifies promise handling and significantly enhances the site's overall performance.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Interactive Shopping Cart System:
+   Users can effortlessly add products to their cart. It features duplicate item prevention and real-time price calculation for a seamless shopping experience.
+
+1. Fully Responsive & Clean UI:
+   Designed with a modern 'SaaS-style' look using Tailwind CSS, ensuring the platform works perfectly across mobile, tablet, and desktop devices.

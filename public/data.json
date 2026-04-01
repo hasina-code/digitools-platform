@@ -8,7 +8,7 @@
     "tag": "Best Seller",
     "tagType": "popular",
     "features": ["Unlimited AI generations", "50+ writing templates", "Multi-language support"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/2592/2592317.png"
+    "icon": "https://i.ibb.co/VcKLfWS6/writing-2327400-1.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["2000+ UI components", "Free lifetime updates", "Commercial license"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/3564/3564941.png"
+    "icon": "https://i.ibb.co/49KzdyV/design-tool.png"
   },
   {
     "id": 3,
@@ -41,7 +41,7 @@
     "tag": "Most Wanted",
     "tagType": "mostwanted",
     "features": ["4K Export support", "10GB Cloud storage", "Team collaboration"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/4406/4406115.png"
+    "icon": "https://i.ibb.co/8DqcNMGM/operation.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "Free",
     "tagType": "new",
     "features": ["Syntax highlighting", "Cloud sync", "VS Code extension"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/1150/1150592.png"
+    "icon": "https://i.ibb.co/Qj9DYCDw/portfolio.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["100+ integrations", "Custom workflows", "Real-time logs"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/1909/1909705.png"
+    "icon": "https://i.ibb.co/HLxYsm4n/social-media.png"
   },
   {
     "id": 7,
