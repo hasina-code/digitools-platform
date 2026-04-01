@@ -1,8 +1,8 @@
 import { use } from "react";
+import ProductCard from "./ProductCard";
 
-
-const Products = ({  carts, setCarts }) => {
-  const products = use();
+const Products = ({ dataPromise, carts, setCarts }) => {
+  const products = use(dataPromise);
 
   return (
     <div className="max-w-7xl mx-auto px-4 mt-12">

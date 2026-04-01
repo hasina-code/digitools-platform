@@ -11,8 +11,12 @@ import Steps from "./Components/Steps";
 import 'react-toastify/dist/ReactToastify.css';
 import Pricing from "./Components/Pricing";
 
+const getData = async () => {
+  const res = await fetch("/data.json");
+  return res.json();
+};
 
-
+const dataPromise = getData();
 
 function App() {
   const [activeTab, setActiveTab] = useState("model");
@@ -23,13 +27,14 @@ function App() {
       <Navbar/>
       <Banner />
       <Stats />
-
+ 
       <div className="text-center mt-16 px-4">
         <h2 className="text-6xl font-bold text-gray-900 mb-4">Premium Digital Tools</h2>
         <p className="text-gray-500 max-w-2xl mx-auto mb-10">
           Choose from our curated collection of premium digital products designed <br/> to boost your productivity and creativity.
         </p>
 
+       
         <div className="inline-flex p-1 bg-white border border-gray-100 shadow-sm rounded-full mb-10">
           <button
             onClick={() => setActiveTab("model")}
@@ -49,16 +54,16 @@ function App() {
               : "bg-transparent text-gray-600 hover:text-gray-900"
             }`}
           >
-            Cart 
+            Cart ({carts.length})
           </button>
         </div>
       </div>
 
-     
+
       <div className="pb-20">
-     {activeTab === "" ? (
+     {activeTab === "model" ? (
   <Suspense fallback={<div className="text-center py-20 text-xl">Loading Products...</div>}>
-    <Products  carts={carts} setCarts={setCarts} />
+    <Products dataPromise={dataPromise} carts={carts} setCarts={setCarts} />
   </Suspense>
 ) : (
   <Cart carts={carts} setCarts={setCarts} />
@@ -68,7 +73,7 @@ function App() {
       <Steps />
       <Pricing/>
       <Footer />
-
+    
       
     </div> 
   );
