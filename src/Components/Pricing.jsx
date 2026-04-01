@@ -53,7 +53,7 @@ const Pricing = () => {
                 : "bg-white border-gray-100 hover:shadow-2xl hover:-translate-y-2"
               }`}
             >
-              {/*  Badge */}
+             
               {plan.isPopular && (
                 <div className="absolute -top-5 left-1/2 -translate-x-1/2">
                   <span className="bg-[#FEF3C7] text-[#D97706] text-[11px] font-black uppercase px-5 py-2 rounded-full border border-[#FDE68A] shadow-sm whitespace-nowrap">

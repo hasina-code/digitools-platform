@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { TiTick } from "react-icons/ti";
-
+import { toast } from "react-toastify";
 
 const ProductCard = ({ product, carts, setCarts }) => {
   const [isSubscribed, setIsSubscribed] = useState(false);
@@ -13,11 +13,11 @@ const ProductCard = ({ product, carts, setCarts }) => {
   const handleSubscription = () => {
     const isFound = carts.find((item) => item.id === product.id);
     if (isFound) {
-      
+      toast.error("Already added to cart!");
       return;
     }
     setCarts([...carts, product]);
-   
+    toast.success("Added to cart!");
   };
 
   return (
@@ -29,7 +29,7 @@ const ProductCard = ({ product, carts, setCarts }) => {
       )}
       
       <div className="mb-4">
-        <img src={product.icon} alt="" className="w-8 h-8 mb-4" />
+        <img src={product.icon} alt="" className="w-12 h-12 mb-4" />
         <h3 className="text-2xl font-bold text-gray-800">{product.name}</h3>
         <p className="text-gray-500 text-sm mt-2 line-clamp-2">{product.description}</p>
       </div>
