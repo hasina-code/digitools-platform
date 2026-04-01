@@ -7,7 +7,7 @@ import Products from "./Components/Products";
 import Cart from "./Components/Cart";
 import Stats from "./Components/Stats";
 import Steps from "./Components/Steps";
-import { ToastContainer } from 'react-toastify';
+
 import 'react-toastify/dist/ReactToastify.css';
 import Pricing from "./Components/Pricing";
 
@@ -73,7 +73,6 @@ function App() {
       <Steps />
       <Pricing/>
       <Footer />
-      <ToastContainer position="top-right" autoClose={1500} />
       
     </div> 
   );
