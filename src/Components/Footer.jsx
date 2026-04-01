@@ -7,8 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#0B1120] text-white pt-24 pb-12 px-6 md:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-16 mb-20">
-        
-        {/* Brand Info */}
+      
         <div className="md:col-span-4 space-y-6">
           <h2 className="text-3xl font-black">DigiTools</h2>
           <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
@@ -16,7 +15,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Links Grid */}
         <div className="md:col-span-8 grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
             <h4 className="font-bold mb-6 text-white">Product</h4>
@@ -51,7 +49,7 @@ const Footer = () => {
 
   <div className="flex gap-4">
     
-    {/* Instagram */}
+   
     <a href="#" className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#0F172A] ">
       <AiFillInstagram size={22} />
     </a>
@@ -70,7 +68,6 @@ const Footer = () => {
   </div>
   </div>
  
-    {/* Separator Line */}
   <div className="max-w-7xl mx-auto border-t border-gray-800 my-10"></div>
   
   <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">

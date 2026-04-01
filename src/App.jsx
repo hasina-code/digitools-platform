@@ -7,9 +7,10 @@ import Products from "./Components/Products";
 import Cart from "./Components/Cart";
 import Stats from "./Components/Stats";
 import Steps from "./Components/Steps";
-
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Pricing from "./Components/Pricing";
+
 
 const getData = async () => {
   const res = await fetch("/data.json");
@@ -24,10 +25,10 @@ function App() {
 
   return (
     <div className="bg-white min-h-screen">
-      <Navbar/>
+      <Navbar carts={carts}/>
       <Banner />
       <Stats />
- 
+  
       <div className="text-center mt-16 px-4">
         <h2 className="text-6xl font-bold text-gray-900 mb-4">Premium Digital Tools</h2>
         <p className="text-gray-500 max-w-2xl mx-auto mb-10">
@@ -59,7 +60,6 @@ function App() {
         </div>
       </div>
 
-
       <div className="pb-20">
      {activeTab === "model" ? (
   <Suspense fallback={<div className="text-center py-20 text-xl">Loading Products...</div>}>
@@ -73,7 +73,7 @@ function App() {
       <Steps />
       <Pricing/>
       <Footer />
-    
+      <ToastContainer position="top-right" autoClose={1500} />
       
     </div> 
   );
